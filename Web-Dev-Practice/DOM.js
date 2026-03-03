@@ -107,3 +107,15 @@ let ul=document.querySelector("ul");
 ul.addEventListener("click",function(dets){
   dets.target.classList.toggle("l"); 
 })
+
+
+//  Project NO : 10 COUNT CHARCTERS.
+let input=document.querySelector("input");
+let h1=document.querySelector("span");
+input.addEventListener("input",function(dets){
+    for(let i=0;i<=dets.target.value.length;i++){
+    h1.textContent=i;
+    }
+});
+
+
