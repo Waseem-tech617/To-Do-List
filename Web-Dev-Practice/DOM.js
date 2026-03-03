@@ -100,3 +100,10 @@ box.style.backgroundColor="red";
 document.addEventListener("keyup", function(val) {
 box.style.backgroundColor="red";
 });
+
+
+//  Project NO : 9 PRACTICE BUBLING CONCET.
+let ul=document.querySelector("ul");
+ul.addEventListener("click",function(dets){
+  dets.target.classList.toggle("l"); 
+})
