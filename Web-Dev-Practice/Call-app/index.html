@@ -37,47 +37,35 @@
         <h1>New Call</h1>
         <form>
             <h4 class="URL">Image URL</h4>
-            <input  required="url" class="image-url" placeholder="https://Example.jpg">
+            <input required class="image-url" placeholder="https://Example.jpg">
             <h4>Full Name</h4>
             <input required type="text" n class="names" placeholder="Enter youer name">
             <h4>Home Town</h4>
-            <input required="text" class="home-town" placeholder="Enter home town">
+            <input required type="text" class="home-town" placeholder="Enter home town">
             <h4>Purpose</h4>
             <input required type="text" class="purpose" placeholder="Enter Your Purpose">
             <h4 class="Catagory">Catagory</h4>
             <label  class="tag-checkbox">
-                <input   type="radio" name="Catagory" class="emergency">
+                <input required  type="radio" name="Catagory" value="emergency" class="emergency">
                 <span>Emergency</span>
             </label>
             <label class="tag-checkbox">
-                <input type="radio" name="Catagory" class="urgent">
+                <input required type="radio" name="Catagory" value="urgent" class="urgent">
                 <span>urgent</span>
             </label>
             <label class="tag-checkbox">
-                <input type="radio" name="Catagory" class="no-rush">
+                <input required type="radio" name="Catagory" value="no-rush" class="no-rush">
                 <span>No Rush</span>
             </label>
             <label class="tag-checkbox">
-                <input required type="radio" name="Catagory" class="important" />
+                <input required type="radio" name="Catagory" value="important" class="important" />
                 <span>Important</span>
             </label>
             <br>
-            <button class="submit-btn">Create Note</button>
+            <button  class="submit-btn">Create Note</button>
         </form>
         <button class="close-btn">Close</button>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="script.js"></script>
 </body>
@@ -95,6 +83,8 @@
                 <h4 class="city">lahore</h4>
                 <h4>Bookings</h4>
                 <h4 class="Bookings"> 3times</h4>
-                <button class="call"><i class="fa-solid fa-phone"></i> Call</button>
+                <button class="call"><i fa-class="fa-solid phone"></i> Call</button>
                 <h3 class="massage">Massage</h3>
             </div> -->
+
+           
