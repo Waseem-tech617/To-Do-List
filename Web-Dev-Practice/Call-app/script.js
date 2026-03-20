@@ -14,7 +14,7 @@ let checkbox = document.querySelectorAll('input[name="Catagory"]');
 let form = document.querySelector("form");
 let closeForm = document.querySelector(".close-btn");
 let arrouwupbtn = document.querySelector(".arrow-up-btn");
-let arrowdoenbtn = document.querySelector(".arrow-down-btn")
+let arrowdoenbtn = document.querySelector(".arrow-down-btn");
 
 // This function for Data save in localstorage.
 function savelocalstorage(obj) {
