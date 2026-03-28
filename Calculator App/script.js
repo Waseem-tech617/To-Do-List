@@ -43,7 +43,7 @@ Array.from(buttons).forEach(button => {
       // Prevent starting with an operator
       if (operators.includes(value) && string === "") return;
 
-      // Prevent double operators
+      // Prevent double operator
       const lastChar = string[string.length - 1];
       if (operators.includes(value) && operators.includes(lastChar)) {
         // Replace last operator with new one
