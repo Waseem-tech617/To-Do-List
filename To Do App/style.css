@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(176, 175, 175);
+    font-family: sans-serif;
+}
+
+.to-do-list-container{
+    height:400px;
+    width: 400px;
+    background-color: rgba(221, 0, 255, 0.502);
+    padding: 0px;
+    margin: 0px;
+}
+.input-task{
+    width: 350px;
+    height: 30px;
+}
+li{
+    list-style: none;
+}
+.add-btn{
+    height: 30px;
+    width: 40px;
+    margin-left:0px;
+}
+.complete-checkbox{
+    height:20px ;
+}
+.task-text{
+    height: 20px;
+    color:white;
+
+}
+li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.edit-btn{
+position: absolute;
+right: 0px;
+height: 30px;
+width: 41px;
+}
+.delete-btn{
+position: absolute;
+right: 41px;
+height: 30px;
+}
