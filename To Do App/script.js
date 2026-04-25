@@ -39,14 +39,9 @@ addBtn.addEventListener("click",function(){
  
 });
 
-// function savelocalstorage(){
-// if(localStorage.getItem){
 
-// }
+function savelocalstorage(){
+localStorage.setItem("tasks",inputTask.value);
 
-
-
-
-
-// }
+}
 
