@@ -13,14 +13,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(176, 175, 175);
+
     font-family: sans-serif;
 }
 
 .to-do-list-container{
     height:400px;
     width: 400px;
-    background-color: rgba(221, 0, 255, 0.502);
+   background-color: aquamarine;
     padding: 0px;
     margin: 0px;
 }
@@ -28,7 +28,7 @@ body{
     width: 350px;
     height: 30px;
 }
-li{
+.task-item{
     list-style: none;
 }
 .add-btn{
@@ -37,18 +37,20 @@ li{
     margin-left:0px;
 }
 .complete-checkbox{
-    height:20px ;
+    height:40px ;
 }
 .task-text{
+
     height: 20px;
-    color:white;
+    margin-left: 5px;
 
 }
-li{
+.task-item{
     display: flex;
     align-items: center;
     width: 100%;
     position: relative;
+    top: 10px;
 }
 .edit-btn{
 position: absolute;
